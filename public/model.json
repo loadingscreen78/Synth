@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "model": "Qwen/Qwen2-1.5B-Instruct",
+    "engine": "CarbonCtrl AI Intelligence Layer",
+    "version": "1.0",
+    "created": "2025-10-18T12:35:18.069251"
+  },
+  "predictions": {
+    "budget_critical_alert": {
+      "forecast_horizon": "30 days",
+      "breach_prediction": {
+        "will_breach": true,
+        "days_until_breach": 3,
+        "probability": 0.85,
+        "confidence_level": "high"
+      },
+      "projected_emissions": 10925.0,
+      "risk_level": "CRITICAL",
+      "recommendations": [
+        "IMMEDIATE: Implement emergency resource optimization",
+        "Enable aggressive auto-scaling policies",
+        "Temporarily shift all non-critical workloads",
+        "Request emergency budget review"
+      ],
+      "confidence": 0.82
+    },
+    "optimization_recommendations": {
+      "response": "I understand your query about carbon monitoring. Please provide more specific information.",
+      "suggestions": [
+        "Ask for carbon emission analysis",
+        "Request optimization recommendations",
+        "Get carbon usage predictions",
+        "Explain specific metrics"
+      ]
+    },
+    "efficiency_analysis": {
+      "summary": "NORMAL: Within acceptable limits. Current emissions: 3500 gCO2 (0% of budget)",
+      "key_findings": [],
+      "trends": {
+        "direction": "stable",
+        "magnitude": 0,
+        "confidence": 0.8
+      },
+      "insights": [
+        "System efficiency below optimal threshold - investigate infrastructure"
+      ],
+      "confidence": 0.85
+    }
+  },
+  "knowledge_base": {
+    "carbon_intensity_thresholds": {
+      "low": 200,
+      "medium": 400,
+      "high": 600,
+      "critical": 800
+    },
+    "optimization_strategies": {
+      "temporal_shifting": {
+        "description": "Move workloads to low-carbon time periods",
+        "potential_reduction": 0.3,
+        "complexity": "low"
+      },
+      "geographic_migration": {
+        "description": "Migrate to regions with cleaner energy grids",
+        "potential_reduction": 0.5,
+        "complexity": "medium"
+      },
+      "resource_consolidation": {
+        "description": "Consolidate underutilized resources",
+        "potential_reduction": 0.4,
+        "complexity": "low"
+      },
+      "renewable_energy": {
+        "description": "Switch to renewable energy sources",
+        "potential_reduction": 0.7,
+        "complexity": "high"
+      }
+    },
+    "efficiency_benchmarks": {
+      "excellent": 95,
+      "good": 85,
+      "acceptable": 75,
+      "poor": 65,
+      "critical": 50
+    },
+    "budget_thresholds": {
+      "safe": 70,
+      "warning": 85,
+      "critical": 95,
+      "breach": 100
+    }
+  }
+}
